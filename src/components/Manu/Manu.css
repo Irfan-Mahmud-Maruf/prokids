@@ -1,0 +1,18 @@
+.Manu {
+  border-bottom: 1px solid lightgray;
+  padding: 0;
+}
+.nav-style {
+  text-decoration: none;
+  margin: 0px 15px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px 20px;
+  transition: 0.5s;
+}
+.nav-style:hover {
+  color: gray;
+  border: none;
+  font-weight: bold;
+}
