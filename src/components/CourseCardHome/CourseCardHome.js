@@ -4,7 +4,8 @@ import { Button, ProgressBar } from 'react-bootstrap';
 const CourseCardHome = (props) => {
     const { name, img, discription, totalStudent, freestudentsit, progress } = props.course;
     return (
-        <div className='card'>
+        <div className="col-md-6">
+            <div className='card'>
             <div className="row">
                 <div className="col-md-6">
                     <img src={img} className="img-fluid rounded-start" alt={name}/>
@@ -20,7 +21,7 @@ const CourseCardHome = (props) => {
                     </div>
                 </div>
             </div>
-            
+        </div>
         </div>
     );
 };
